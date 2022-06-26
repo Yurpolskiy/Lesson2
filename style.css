@@ -1,5 +1,5 @@
 body{
-    weight: 1440px;
+    width: 1440px;
 }
 
 
@@ -42,9 +42,7 @@ li{
     flex-direction: row;
     justify-content: space-around;
 }
-.Figma{
-    margin-right: 0px;
-}
+
 .Figma_name{
     padding-bottom: 15px;
 }
@@ -85,7 +83,6 @@ footer{
     border-radius: 22px;
     width: 180px;
     height: 44px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -114,4 +111,10 @@ footer{
     line-height: 19px;
     text-align: center;
     color: #828282;
+}
+
+.footer_button:hover{
+    color: white;
+    box-shadow: 10px 4px 36px 10px black;
+    text-shadow: white 0 0 10px;
 }
