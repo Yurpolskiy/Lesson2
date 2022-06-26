@@ -1,0 +1,117 @@
+body{
+    weight: 1440px;
+}
+
+
+a{
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    text-decoration: none;
+    color: #828288;
+}
+.header{
+    display: inline
+}
+
+nav{
+
+    height: 80px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.Homepage{
+    font-size: 18px;
+    width: 53px;
+    height: 25px;
+    line-height: 25px;
+    color: #070707;
+}
+
+.skills{
+    margin: auto;
+    max-width: 970px;
+    margin-top:84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Figma{
+    margin-right: 0px;
+}
+.Figma_name{
+    padding-bottom: 15px;
+}
+
+.Reebok_store_kredo{
+    text-decoration: underline;
+}
+
+.BrAun_kredo{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 3px;
+    gap: 60px;
+}
+
+.footer_contacts{
+    text-align: center;
+}
+
+.Asking{
+    font-size: 18px;
+
+}
+.Congrat{
+    font-size: 18px;
+}
+
+.footer_button {
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 0px 16px;;
+    border-radius: 22px;
+    width: 180px;
+    height: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    background: #070707;
+    color: #FFFFFF
+}
+
+
+
+.social_medias{
+    display: inline-block;
+}
+
+.social_media_icons{
+    padding-right:50px;
+}
+
+.End_words{
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
